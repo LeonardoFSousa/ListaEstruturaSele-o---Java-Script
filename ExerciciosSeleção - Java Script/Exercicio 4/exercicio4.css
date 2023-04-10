@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#container {
+    border: 5px solid navy;
+    text-align: center;
+    margin: 20px 600px 20px
+
+}
+
+#botao {
+    margin: 8px auto;
+}
+
+#n1 {
+    margin: 4px auto;
+}
+
+#n2 {
+    margin: 4px auto;
+}
+
+#n3 {
+    margin: 4px auto;
+}
