@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#container {
+    border: 5px solid magenta;
+    text-align: center;
+    margin: 20px 600px 20px
+
+}
+
+#botao {
+    margin: 8px auto;
+}
+
+#codigo {
+    margin: 4px auto;
+}
+
+#quantidade {
+    margin: 4px auto;
+}

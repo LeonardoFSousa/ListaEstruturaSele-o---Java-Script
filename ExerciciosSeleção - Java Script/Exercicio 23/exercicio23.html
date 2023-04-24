@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Exercicio 23 </title>
+    <link rel="stylesheet" href="exercicio23.css">
+</head>
+    <body>
+        <div id="container">
+            <h2> Valor da Compra </h2>
+
+            <div> Digite o código do produto comprado <input type="number" id="codigo"> </div>
+            <div> Digite quantos podutos foram comprados <input type="number" id="quantidade"> </div>
+            <div> <button onclick="preco()" id="botao"> Calcular Preço </button> </div>
+            <div>
+                <p> 
+                    Preço Unitário: R$<span id="unitario"> </span>
+                </p>
+                <p> 
+                    Preço total da Nota: R$<span id="totalnota"> </span>
+                </p>
+                <p>
+                    Desconto: R$<span id="desconto"> </span>
+                </p> 
+                <p>
+                    <strong> Preço Final: R$<span id="precofinal"> </span> </strong> 
+                </p>
+            </div>    
+        </div>
+    <script src="exercicio23.js"> </script>
+    </body>
+</html>
